@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* default */
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  height: 90px;
+  width: 1370px;
+  border: 1px solid black;
+}
+
+#amazonlogo {
+  height: 59px;
+  width: 150px;
+  /* border: 2px solid rgb(255, 163, 59); */
+}
+
+.amazon {
+  height: 59px;
+  width: 1370px;
+  /* border: 1px solid rgb(255, 251, 0); */
+  background-color: black;
+  display: flex;
+}
+
+#amazonlogo:hover {
+  outline: 1px solid white;
+  cursor: pointer;
+}
+
+#location {
+  height: 59px;
+  width: 160px;
+  margin-left: 10px;
+  color: rgb(252, 252, 252);
+  background-color: black;
+  padding: 2px;
+  /* border: 1px solid purple; */
+}
+
+/* #location:hover{
+  border: 1px solid white;
+} */
+
+h5 {
+  height: 1px;
+  margin-bottom: -4px;
+  color: rgb(196, 193, 193);
+}
+
+.divide {
+  height: 30px;
+  width: 1370px;
+  color: white;
+  /* background-color: blue; */
+  /* border: 1px solid rgb(43, 255, 0); */
+  background-color: rgb(66, 69, 94);
+}
+
+a {
+  margin-right: 20px;
+  /* gap: 100px; */
+  /* display:block; */
+}
+
+a:hover {
+  outline: 1px solid white;
+  color: rgb(230, 222, 222);
+  cursor: pointer;
+}
+
+
+
+.search {
+  /* margin-left: 5px; */
+  margin-top: 10px;
+  display: flex;
+  width: 78%;
+  height: 39px;
+
+  input:focus {
+    outline: 2px solid rgb(255, 145, 0);
+    border-radius: 5px;
+  }
+
+  /* border: 1px solid red; */
+
+  select {
+    height: 40.5px;
+    margin-top: -0.5px;
+    width: 50px;
+    aspect-ratio: 1;
+    outline: none;
+    /* border-right:none ; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(212, 211, 211);
+    /* border: 2px solid brown ; */
+
+  }
+
+  select:focus {
+    outline: 2px solid rgb(255, 145, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .drop:hover {
+    background-color: rgb(177, 169, 169);
+    cursor: pointer;
+  }
+
+  .drop:focus {
+    background-color: white;
+  }
+
+
+  input {
+    /* height: 46px; */
+    /* border-color: orange; */
+    width: 100%;
+    outline: none;
+    border-right: none;
+    border: none;
+    padding-left: 20px;
+    /* border: 2px solid rgb(255, 220, 20) ; */
+
+  }
+
+  button {
+    /* height: 40px; */
+    /* margin-right: 10px; */
+    /* width: 60px; */
+    outline: none;
+    border: none;
+    aspect-ratio: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(243, 189, 107);
+    /* border: 2px solid rgb(56, 165, 42) ; */
+  }
+
+  button:hover {
+    background-color: rgb(241, 157, 0);
+    cursor: pointer;
+  }
+
+  .lang {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  #signin h2 {
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+
+  }
+
+  #signin:hover {
+    outline: 1px solid white;
+    cursor: pointer;
+  }
+
+  #order h2 {
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  #order:hover {
+    outline: 1px solid white;
+    cursor: pointer;
+  }
+
+  #img {
+    height: 40px;
+    width: 70px;
+    /* margin-left: px; */
+    /* background-color: orangered; */
+  }
+
+  #img:hover {
+    outline: 1px solid white;
+    cursor: pointer;
+  }
+
+}
+#imgmain{
+  height: 47rem;
+  width: 100rem;
+}
